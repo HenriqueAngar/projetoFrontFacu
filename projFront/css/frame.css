@@ -1,0 +1,34 @@
+#chat_frame {
+    background-color: var(--verdeEscuro);
+    border: 15px solid var(--verdeEscuro);
+    border-radius: 15px;
+    max-width: 720px;
+    margin: 12px auto;
+}
+
+#chat_header {
+
+    background-color: var(--verdeEscuro);
+    color: var(--branco);
+    height: 40px;
+    font-family: var(--titulo);
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+#chat_screen {
+
+    background-color: var(--branco);
+    border: 10px solid var(--branco);
+    border-radius: 5px;
+    min-height: 400px;
+    width: calc(720px - 30px);
+}
+
+#chat_interface {
+
+    display: block;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}

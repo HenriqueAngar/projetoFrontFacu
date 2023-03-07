@@ -1,0 +1,10 @@
+body {
+
+    background: linear-gradient(180deg, var(--branco), var(--azulClaro), var(--verdeEscuro));
+}
+
+.chat_background {
+
+    height: 100vh;
+    width: 100%;
+}
